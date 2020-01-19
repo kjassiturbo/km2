@@ -7,8 +7,8 @@ $white: #fff;
 $black: #000000;
 $darken: #232931;
 
-$primary: #3e64ff;
-$secondary: #a0f669;
+$primary: #0394fc;
+$secondary: #078a1b;
 
 
 
@@ -36,7 +36,7 @@ body {
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
-	color: lighten($black,60%);
+	color: $black;
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
